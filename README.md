@@ -32,6 +32,7 @@ The dataset contains various transaction records, including features such as tra
      b. Drop unnecessary columns to simplify the dataset.
 
 5. Model Training and Evaluation
+   
      a. Split the dataset into training and test sets.
      
      b. Train Random Forest Classifier and Decision Tree models.
