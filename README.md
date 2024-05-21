@@ -11,21 +11,28 @@ The dataset contains various transaction records, including features such as tra
 1. Data Loading and Initial Exploration
   a. Load the dataset and display the first few rows and summary statistics.
   b. Check for missing values and dataset dimensions.
+
 2.Data Cleaning
   a.Remove outliers using the IQR method.
   b.Encode categorical variables using label encoding.
+
+
 3.Exploratory Data Analysis (EDA)
   a.Visualize the distribution of fraudulent and non-fraudulent transactions.
   b.Plot a correlation heatmap to identify relationships between features.
+
 4.Feature Engineering
   a.Create new features by encoding transaction types and destinations.
   b.Drop unnecessary columns to simplify the dataset.
+
 5.Model Training and Evaluation
   a.Split the dataset into training and test sets.
   b.Train Logistic Regression and Decision Tree models.
   c.Evaluate model performance using accuracy scores and classification reports.
+
 6.Visualization
   a.Generate visualizations to aid in understanding data distributions and model performance.
+
 7.User Input and Prediction
   a.Implement functions to accept user input and predict whether a transaction is fraudulent using trained models.
 
