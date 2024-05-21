@@ -14,37 +14,37 @@ The dataset contains various transaction records, including features such as tra
 
   b. Check for missing values and dataset dimensions.
 
-2.Data Cleaning
-  a.Remove outliers using the IQR method.
+2. Data Cleaning
+  a. Remove outliers using the IQR method.
   
-  b.Encode categorical variables using label encoding.
+  b. Encode categorical variables using label encoding.
 
 
-3.Exploratory Data Analysis (EDA)
+3. Exploratory Data Analysis (EDA)
 
-  a.Visualize the distribution of fraudulent and non-fraudulent transactions.
+  a. Visualize the distribution of fraudulent and non-fraudulent transactions.
   
-  b.Plot a correlation heatmap to identify relationships between features.
+  b. Plot a correlation heatmap to identify relationships between features.
 
-4.Feature Engineering
-  a.Create new features by encoding transaction types and destinations.
+4. Feature Engineering
+  a. Create new features by encoding transaction types and destinations.
   
-  b.Drop unnecessary columns to simplify the dataset.
+  b. Drop unnecessary columns to simplify the dataset.
 
-5.Model Training and Evaluation
-  a.Split the dataset into training and test sets.
+5. Model Training and Evaluation
+  a. Split the dataset into training and test sets.
   
-  b.Train Random Forest Classifier and Decision Tree models.
+  b. Train Random Forest Classifier and Decision Tree models.
   
-  c.Evaluate model performance using accuracy scores and classification reports.
+  c. Evaluate model performance using accuracy scores and classification reports.
 
-6.Visualization
+6. Visualization
 
-  a.Generate visualizations to aid in understanding data distributions and model performance.
+  a. Generate visualizations to aid in understanding data distributions and model performance.
 
-7.User Input and Prediction
+7. User Input and Prediction
 
-  a.Implement functions to accept user input and predict whether a transaction is fraudulent using trained models.
+  a. Implement functions to accept user input and predict whether a transaction is fraudulent using trained models.
 
 ### Key Findings
 1.The dataset is highly imbalanced, with a very small percentage of fraudulent transactions.
